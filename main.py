@@ -27,7 +27,7 @@ def get_start():
 def main():
     pygame.init()
     # fenetre = pygame.display.set_mode((width, height), pygame.FULLSCREEN)
-    fenetre = pygame.display.set_mode((width,height), pygame.FULLSCREEN)
+    fenetre = pygame.display.set_mode((width,height), pygame.RESIZABLE)
     fenetre.fill(BLACK)
     x,y = get_start()
     player_position = (x+32,y+32)
